@@ -1,0 +1,71 @@
+Resumo da Aula – Power BI (Prática e Criação de Relatórios) – 19/08/2025
+1. Abertura da Aula
+
+Rodrigo cumprimenta os alunos e inicia compartilhando a tela.
+
+Explica que, conforme prometido, a aula será mais prática, com uso de arquivos Excel e criação de conta no Power BI.
+
+Mostra o processo de login no portal app.powerbi.com
+ usando o e-mail da Univille.
+
+Comenta sobre licenças disponíveis: Free, Pro e Premium (trial), explicando as diferenças e destacando que o plano Free já é suficiente para as primeiras aulas.
+
+2. Criação da Conta e Acesso
+
+Demonstra o passo a passo para criar a conta:
+
+Inserir o e-mail da Univille.
+
+Inserir a senha do e-mail institucional.
+
+Aceitar a licença gratuita ou trial.
+
+Explica ícones do Power BI:
+
+Diamante = recurso Premium.
+
+Outro ícone (que ele brinca dizendo parecer “uma panela”) = recurso em trial.
+
+3. Prática no Power BI
+
+Upload de dados: Rodrigo mostra como importar um arquivo Excel para o ambiente.
+
+Criação de relatório:
+
+Inserção de tabelas e segmentação de dados.
+
+Ajuste de formatações (exemplo: transformar hierarquia de datas em filtro por ano).
+
+Configuração de segmentação em lista vertical ou suspensa, conforme o número de valores disponíveis.
+
+Filtragem e interação: demonstra como filtrar gráficos clicando em valores específicos.
+
+4. Personalização e Salvamento
+
+Mostra como formatar visuais usando o pincel de formatação.
+
+Demonstra como salvar relatórios no workspace criado pelo aluno.
+
+Exemplo prático: cria um relatório chamado “Meu Primeiro Relatório”.
+
+5. Compartilhamento e Copilot
+
+Ensina como compartilhar relatórios diretamente pelo e-mail.
+
+Demonstra recebimento do link compartilhado no próprio e-mail.
+
+Apresenta o recurso Copilot no Power BI, que permite fazer perguntas diretamente sobre os dados (ex.: “Qual mês teve mais vendas?”).
+
+6. Encerramento e Próximos Passos
+
+Relembra que o objetivo da aula foi explorar o ambiente e criar o primeiro relatório básico.
+
+Explica que o curso seguirá um roteiro intercalando teoria e prática, priorizando aulas de quinta-feira para exercícios.
+
+Próximos tópicos: módulos de modelagem de dados e práticas adicionais de relatórios.
+
+Fecha a gravação após confirmar que cumpriu os objetivos iniciais.
+
+📌 Sugestão de Título
+
+"Aula de Power BI – Primeiros Passos na Criação de Relatórios e Segmentação de Dados (19/08/2025)"
