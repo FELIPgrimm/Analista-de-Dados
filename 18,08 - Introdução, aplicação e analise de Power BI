@@ -1,0 +1,109 @@
+
+🎯 Objetivo da Aula
+
+Introduzir os alunos ao Power BI e sua aplicação prática em análise e engenharia de dados.
+
+Mostrar como modelar dados de forma eficiente para que a Inteligência Artificial (IA), como o Copilot, consiga interpretar e responder perguntas de negócios com mais assertividade.
+
+1. Ferramentas Utilizadas
+
+Power BI Desktop
+
+Pode ser baixado gratuitamente: Download Power BI Desktop
+
+Alunos da Univille podem usar com o e-mail institucional.
+
+Versão Pro / Trial
+
+Possui funções adicionais (como Copilot).
+
+Microsoft oferece teste grátis por 60 dias: Power BI Pro Trial
+.
+
+2. Papel do Analista e Engenheiro de Dados
+
+Engenheiro de Dados → organiza, estrutura e relaciona tabelas vindas de diferentes fontes (ex: Oracle, TOTVS, SAP, Linx).
+
+Analista de Dados → usa o modelo organizado para gerar relatórios e visualizações úteis ao negócio.
+
+👉 Se os dados não estiverem bem preparados, o modelo fica inconsistente e o Copilot/IA não consegue interpretar corretamente.
+Exemplo: se os nomes das colunas estiverem em inglês, mas o usuário pergunta em português, a IA pode falhar.
+
+3. Fluxo da Análise de Dados
+
+Conectar dados brutos (diversas fontes).
+
+Transformar dados (tratamento, padronização, joins).
+
+Criar visualizações (gráficos, dashboards).
+
+Publicar e distribuir relatórios para o usuário final.
+
+🔗 Guia oficial da Microsoft: Introdução ao Power BI
+
+4. Importância da Modelagem de Dados
+
+A boa modelagem garante:
+
+Performance (consultas rápidas).
+
+Assertividade (respostas corretas).
+
+Facilidade para o usuário de negócio (menos esforço para interpretar relatórios).
+
+📌 Modelos citados:
+
+Star Schema (Esquema em Estrela)
+
+É o modelo mais recomendado para BI.
+
+Tabelas Fato (métricas) no centro e Tabelas Dimensão (categorias, descrições) ligadas como braços de uma estrela.
+
+Mais eficiente que “tabelões” únicos.
+
+Guia: Star Schema no Power BI
+
+Snowflake Schema (Constelação / Floco de Neve)
+
+Versão mais complexa do Star, mas usada em casos específicos.
+
+5. Copilot e IA no Power BI
+
+O Copilot permite fazer perguntas em linguagem natural sobre os relatórios.
+
+Qualidade do modelo impacta diretamente na qualidade das respostas da IA.
+
+Exemplo:
+
+Se colunas estão em inglês → melhor fazer perguntas em inglês.
+
+Se estão em português → perguntar em português.
+
+🔗 Saiba mais: Copilot no Power BI
+
+6. Outros Pontos Importantes
+
+Chamada de presença nas aulas do FAEG → obrigatória (via link/QR Code).
+
+Aulas incluem prática em:
+
+Criação de relatórios.
+
+Publicação no serviço Power BI.
+
+Distribuição dos dashboards para usuários finais.
+
+📚 Links Úteis
+
+📥 Download Power BI Desktop
+
+🎓 Introdução ao Power BI (Microsoft Learn)
+
+⭐ Guia de Modelagem em Estrela (Star Schema)
+
+🤖 Copilot no Power BI
+
+📊 Diferença entre Analista e Engenheiro de Dados
+
+👉 Resumindo:
+A aula introduziu a importância da modelagem de dados para uso no Power BI, conectando com a prática de IA (Copilot). O foco está em aprender a tratar dados brutos, estruturar modelos semânticos (como o Star Schema) e transformar isso em relatórios claros e úteis para o negócio.
