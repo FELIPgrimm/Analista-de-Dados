@@ -1,0 +1,57 @@
+Introdução e Contextualização
+
+Rodrigo inicia explicando o suporte BI e a relação do conteúdo com certificação.
+
+Comentou que a aula é mais teórica, mas ressaltou que pode haver aplicação prática em exercícios futuros.
+
+Destacou a importância de acompanhar os módulos do Power BI, tanto no desktop quanto no ambiente web.
+
+2. Estrutura e Recursos do Curso
+
+Rodrigo mostrou links e materiais que serão usados como base para o estudo e prática.
+
+Reforçou que os alunos devem fazer login no portal do Power BI (com e-mail da Univille ou outro) para acompanhar o progresso nos módulos.
+
+O portal monitorará a evolução do aluno, possibilitando acompanhamento de atividades e módulos concluídos.
+
+3. Conteúdo e Módulos
+
+Módulos introdutórios: apresentação geral sobre análise de dados.
+
+Criação de relatórios: como criar relatórios, escolha de modelos semânticos, ou relatório em branco.
+
+Estrutura de modelos: explicação sobre modelo estrela (Star Schema) e sua relevância para modelagem de dados.
+
+Limpeza e transformação de dados (ETL):
+
+Ferramenta “Transformar dados” no Power BI Desktop.
+
+Permite arrumar cabeçalhos, transpor dados, agrupar colunas, dividir dados, etc.
+
+Reforço no conceito de Self-Service BI, onde o usuário consegue manipular e preparar dados por conta própria.
+
+4. Demonstração Prática
+
+Rodrigo mostrou como importar dados (planilhas, modelos semânticos ou dados manuais).
+
+Explicou como criar um relatório em branco e a diferença para um modelo semântico pré-definido.
+
+Mostrou o ambiente do Power BI Desktop e Web, destacando as funcionalidades de transformação e visualização de dados.
+
+Reforçou que na próxima aula haverá exercícios práticos, para importar dados e criar visualizações básicas.
+
+5. Organização e Próximos Passos
+
+Na próxima aula: prática com dados reais e criação de relatórios básicos.
+
+Rodrigo explicou que vai passar a sequência dos módulos, começando pelos conceitos básicos e avançando para modelagem e criação de relatórios.
+
+O foco é que os alunos acompanhem a teoria e pratiquem simultaneamente, para consolidar o aprendizado.
+
+6. Observações Finais
+
+Importância de acompanhar o progresso no portal do Power BI.
+
+Incentivo a explorar funcionalidades do Power BI Desktop e Web.
+
+Próxima aula será mais interativa, focada na criação prática de relatórios e visualizações.
