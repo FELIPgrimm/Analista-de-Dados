@@ -1,0 +1,61 @@
+📊 Conteúdo Principal
+1. Fluxo de Dados e Power BI
+
+Dados vêm de várias fontes (transacionais, telemetria, etc.).
+
+Necessário processar, limpar, transformar e modelar antes de gerar dashboards.
+
+Ferramentas como notebooks em Python são muito usadas para ingestão de dados, por serem mais customizáveis e baratas que componentes prontos.
+
+2. ETL vs ELT
+
+ETL (Extract, Transform, Load) → modelo mais antigo, transforma antes de carregar.
+
+ELT (Extract, Load, Transform) → tendência atual, primeiro carrega os dados brutos e depois transforma, permitindo validar e manipular sem perder o original.
+
+Surgimento de formatos como Parquet para Data Lake.
+
+3. Tipos de Análise
+
+Descritiva → “O que aconteceu?” (dados históricos, KPIs, dashboards).
+
+Diagnóstica → “Por que aconteceu?” (causas, detecção de anomalias).
+
+Preditiva (Forecasting) → “O que pode acontecer?” (tendências, séries temporais).
+
+Prescritiva → “O que deve ser feito?” (ações para atingir metas).
+
+IA → auxilia na análise e previsão, mas depende fortemente da qualidade dos dados.
+
+4. Segurança e Privacidade
+
+Risco de vazamento de dados ao usar IA em nuvem.
+
+Importância de anonimização, mascaramento e criptografia em bases sensíveis.
+
+Exemplos de falhas comuns: copiar base de produção para homologação sem anonimizar.
+
+👥 Papéis no Contexto de Dados
+
+Analista de Negócio → próximo do negócio, interpreta os dados.
+
+Analista de Dados → analisa e modela os dados já estruturados.
+
+Engenheiro de Dados → responsável pelo fluxo, pipelines, ingestão e integração.
+
+Engenheiro de Análise / DevOps → infraestrutura e automação (pipelines, Kubernetes).
+
+Cientista de Dados → gera novos insights e previsões avançadas (machine learning).
+
+🎯 Reflexões do Professor
+
+Dados = novo petróleo ou até urânio → valiosos, mas perigosos se mal armazenados.
+
+Conhecimento de negócio muitas vezes é mais difícil de ensinar que tecnologia.
+
+Importância de experiência diversificada para unir visão técnica e de negócios.
+
+Risco de profissionais limitados apenas a ferramentas sem compreensão profunda.
+
+✅ Resumo final em uma frase:
+A aula apresentou os fundamentos da análise de dados no Power BI e no contexto moderno de Data Lakes, explorando ETL/ELT, tipos de análise (descritiva, diagnóstica, preditiva, prescritiva), riscos de segurança e a importância dos diferentes papéis (analistas, engenheiros, cientistas), destacando a necessidade de unir conhecimento técnico e de negócio para gerar valor real a partir dos dados.
