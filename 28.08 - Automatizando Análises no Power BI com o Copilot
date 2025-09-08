@@ -1,0 +1,95 @@
+Resumo da Aula – Uso do Copilot no Power BI
+1. Introdução e Contexto
+
+O foco da aula foi o uso do Copilot no Power BI, uma ferramenta que integra inteligência artificial generativa dentro do ambiente de relatórios, permitindo que usuários façam perguntas em linguagem natural sobre os dados e recebam análises automáticas.
+
+2. Acesso ao Ambiente de Testes
+
+Foram disponibilizados 12 logins (aluno1 até aluno12) com senha compartilhada no chat.
+
+usuário: aluno01@rdornel até o aluno12@rdornel.com
+Senha: MCSFT*qwe2025
+
+Cada aluno deveria avisar no chat qual login estava utilizando para evitar duplicidade.
+
+O acesso foi feito via portal Power BI (app.powerbi.com).
+
+Dentro da plataforma, os alunos deveriam localizar o workspace “Febrick”, já configurado com relatórios e permissões.
+
+🔹 Observação: o Copilot só funciona em contas com capacidade premium, motivo pelo qual foram usados logins de teste preparados pelo professor.
+
+3. Primeiros Passos no Power BI
+
+Após o login, os alunos deveriam:
+
+Acessar o workspace Febrick.
+
+Procurar pelo relatório “Sales Performance Dashboard”.
+
+Ativar o Copilot dentro do relatório.
+
+O professor demonstrou utilizando o login aluno12@rdornel.com
+.
+
+4. Utilização do Copilot
+
+O Copilot permite interação direta com os dados via perguntas em linguagem natural. Alguns exemplos de comandos feitos na aula:
+
+“Mostre um resumo executivo dos meus dados”
+
+“Qual o total de vendas por mês?”
+
+“Qual o melhor mês em receita?”
+
+Demonstração prática:
+
+O Copilot respondeu que maio foi o mês com melhor desempenho em receita, identificando automaticamente no dashboard.
+
+Além disso, o Copilot mostra a origem dos dados (quais relatórios ou campos foram usados) e permite explorar respostas abrindo gráficos ou relatórios relacionados.
+
+5. Pontos Observados
+
+Houve alguns momentos em que o Copilot não interpretou bem o contexto, exigindo reformulação da pergunta.
+
+O professor destacou que, em alguns casos, é melhor formular a pergunta em inglês, pois a versão em português ainda tem limitações.
+
+O Copilot gera resumos executivos úteis, mas é importante validar se os dados foram interpretados corretamente.
+
+6. Orientações para a Prática dos Alunos
+
+Enquanto aguardavam a chegada do professor (por volta das 18h30), os alunos deveriam:
+
+Entrar com seus respectivos logins.
+
+Acessar o workspace Febrick.
+
+Abrir o Sales Performance Dashboard.
+
+Usar o Copilot para explorar perguntas sobre vendas, receitas e desempenho mensal.
+
+7. Informações Extras (Complemento Didático)
+
+O Power BI Copilot faz parte da integração da Microsoft com IA generativa (Azure OpenAI).
+
+Ele funciona como um assistente analítico, permitindo:
+
+Criar relatórios automaticamente.
+
+Gerar resumos em linguagem natural.
+
+Explicar gráficos e tendências.
+
+Ajudar na exploração de dados sem necessidade de fórmulas complexas em DAX.
+
+Boas práticas para uso:
+
+Fazer perguntas claras e objetivas.
+
+Validar os resultados olhando o relatório original.
+
+Usar termos consistentes com os nomes das tabelas e campos disponíveis.
+
+8. Conclusão
+
+A aula mostrou na prática como o Copilot pode simplificar análises no Power BI, tornando acessível a exploração de dados mesmo para quem não domina linguagem técnica.
+Apesar de algumas limitações de interpretação, a ferramenta se mostrou capaz de gerar insights rápidos, resumos executivos e gráficos dinâmicos, servindo como um apoio estratégico na tomada de decisões baseadas em dados.
