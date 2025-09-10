@@ -1,0 +1,89 @@
+1. Introdução
+
+O professor Rodrigo Ramos Dornel iniciou a aula retomando discussões anteriores sobre integração de dados via API e destacou que o Power Query (ferramenta dentro do Power BI) pode ser usado para:
+
+Importar dados de diversas fontes.
+
+Tratar inconsistências.
+
+Personalizar consultas usando o Editor Avançado.
+
+Ele ressaltou que, quando não se consegue resolver um problema diretamente pela interface do Power BI, é possível ajustar o código M no editor ou combinar recursos nativos com lógicas de transformação.
+
+2. Uso do Editor Avançado
+
+O professor demonstrou como acessar o Editor Avançado para editar o código M manualmente.
+
+Pontos principais:
+
+É possível excluir ou modificar etapas que o Power BI gera automaticamente.
+
+Exemplo prático: deletar uma linha de transformação que estava dando erro (ajustando até a vírgula no código).
+
+Ao aplicar a modificação, os dados voltaram a aparecer corretamente no relatório.
+
+💡 Conceito extra: O código M é a linguagem usada pelo Power Query. Ele registra todas as etapas aplicadas na manipulação de dados, permitindo maior controle, automação e reuso.
+
+3. Criação de Colunas Condicionais
+
+Depois, o professor apresentou outra forma de tratar dados: a coluna condicional.
+
+Exemplo trabalhado:
+
+Criar uma coluna chamada País.
+
+Regra:
+
+Se o campo Cliente_País for diferente de “Brasil”, então o valor deve ser “Brasil”.
+
+Caso contrário, manter o valor original da coluna.
+
+Após aplicar, o professor removeu a coluna antiga e manteve apenas a nova tratada.
+
+Isso garantiu que valores incorretos fossem substituídos e que o relatório se mantivesse consistente.
+
+4. Impacto no Relatório
+
+Ao aplicar as alterações, o relatório inicial quebrou (porque a coluna original havia sido removida).
+
+O professor mostrou como reconectar o gráfico à nova coluna corrigida.
+
+Esse exemplo demonstrou a importância de entender a relação entre modelo de dados e visualizações no Power BI.
+
+5. Boas Práticas e ETL
+
+O professor aproveitou para explicar um conceito importante:
+
+Em um processo de ETL (Extract, Transform, Load), erros de dados (como país digitado errado) podem ser tratados em duas formas:
+
+No Power BI (via colunas condicionais, parâmetros e tratamento direto).
+
+Na camada de ETL ou Data Quality, criando uma tabela de exceção.
+
+Essa tabela de exceção pode ser exportada em CSV ou logada em banco de dados para que um analista de dados/qualidade investigue a origem do erro (ex.: integração incorreta ou cadastro malfeito).
+
+💡 Conceito extra: Esse processo é fundamental para governança de dados – garante que os relatórios não só funcionem, mas também que os erros sejam rastreados e corrigidos na fonte.
+
+6. Conclusão da Aula
+
+O professor encerrou reforçando:
+
+O uso de colunas condicionais e Editor Avançado são recursos essenciais para manipular dados.
+
+É importante pensar em processos de tratamento e exceção para manter a qualidade dos relatórios.
+
+Próximas aulas irão abordar parâmetros no Power Query e outras técnicas de automação.
+
+7. Síntese
+
+Esta aula mostrou, na prática, como:
+
+Usar o Editor Avançado para ajustar o código M.
+
+Criar colunas condicionais para padronizar informações.
+
+Garantir consistência nos relatórios após transformações.
+
+Compreender o papel do ETL e das tabelas de exceção no fluxo de qualidade de dados.
+
+👉 Em resumo, foi uma aula focada em tratamento de dados e boas práticas de modelagem no Power BI, preparando os alunos para lidar com cenários reais de inconsistência e integração de dados.
