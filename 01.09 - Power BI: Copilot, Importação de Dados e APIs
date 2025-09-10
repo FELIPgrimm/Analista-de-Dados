@@ -1,0 +1,107 @@
+1. Introdução e Panorama
+
+O professor Rodrigo Ramos Dornel iniciou a aula organizando a turma, lembrando da chamada e situando os alunos sobre o que já havia sido trabalhado em encontros anteriores.
+Até este momento, os módulos já vistos incluíam:
+
+Introdução ao Power BI
+
+Descoberta e Criação de Relatórios
+
+Uso do Copilot (IA Generativa)
+
+O professor destacou que, nas próximas semanas, seriam explorados outros módulos disponibilizados no Microsoft Learn, especialmente voltados à formação de Analista de Dados, com aprofundamento no ecossistema do Power BI.
+
+2. Revisão: Copilot no Power BI
+
+Retomando brevemente a aula anterior, o professor reforçou que o Copilot permite:
+
+Fazer perguntas em linguagem natural sobre os dados.
+
+Gerar resumos executivos.
+
+Criar visualizações automáticas.
+
+Facilitar a exploração de dashboards sem necessidade de fórmulas avançadas.
+
+Apesar de algumas limitações (especialmente em português), o recurso representa uma evolução no uso de IA dentro do Power BI, tornando a análise de dados mais acessível.
+
+3. Importação de Dados: Conceitos-Chave
+
+O foco central desta aula foi a importação e manipulação de dados no Power BI, abordando conceitos fundamentais:
+
+Modos de Conexão
+
+Import: importa os dados para dentro do modelo do Power BI.
+
+DirectQuery: conecta diretamente à base de dados, sem importar tudo, sendo útil para grandes volumes.
+
+Impactos de Performance
+
+O professor destacou que escolher entre Import ou DirectQuery influencia diretamente no desempenho.
+
+Usuários inexperientes podem sofrer com lentidão ou sobrecarga ao carregar dados sem filtros ou técnicas adequadas.
+
+4. Exemplo Prático: Obtendo Dados da Web
+
+Para demonstrar o processo, o professor utilizou como exemplo a tabela de população do Brasil por estado disponível na Wikipedia.
+
+Passo a Passo Demonstrado:
+
+Copiar o link da página da Wikipedia.
+
+No Power BI, acessar “Obter Dados > Web”.
+
+Selecionar o modo básico (útil para sites abertos).
+
+Conectar sem autenticação (neste caso, porque a Wikipedia é pública).
+
+O Power BI fez a leitura da página e identificou tabelas em HTML.
+
+O professor explicou que esse processo é uma forma simples de web scraping, em que o Power BI extrai informações estruturadas diretamente de páginas da web.
+
+5. Tratamento e Transformação dos Dados
+
+Após importar a tabela, o professor mostrou que:
+
+Alguns dados vieram como texto ao invés de números, o que exigiria conversão de tipos.
+
+Existe a opção “Adicionar tabela usando exemplos”, onde o usuário escreve valores esperados (como São Paulo – 46 milhões) e o Power BI tenta reconhecer o padrão para preencher automaticamente o restante.
+
+Esse recurso lembra técnicas de IA aplicada à limpeza e padronização de dados.
+
+Além disso, ele destacou a possibilidade de acessar o Editor Avançado, onde é exibido o código M (linguagem usada pelo Power Query).
+Com isso, é possível:
+
+Incluir parâmetros dinâmicos.
+
+Configurar chamadas de APIs que exigem tokens ou autenticação.
+
+Editar a query para refinar e automatizar o processo de coleta de dados.
+
+6. Conceitos Extras Destacados
+
+Web Scraping: processo de extração automática de dados de páginas da web, útil quando não existe uma API oficial.
+
+APIs e Tokens: muitas fontes de dados exigem autenticação (chaves, tokens de segurança ou login organizacional). O Power BI suporta essa integração.
+
+Transformar Dados: etapa essencial antes de criar relatórios, garantindo qualidade e consistência das informações.
+
+7. Encerramento e Próximos Passos
+
+A aula foi finalizada com a previsão de que, no próximo encontro, os alunos aprofundariam:
+
+Técnicas de transformação de dados no Power Query.
+
+Importação de dados a partir de APIs avançadas.
+
+Boas práticas para organizar modelos de dados otimizados no Power BI.
+
+8. Conclusão
+
+Esta aula consolidou dois pilares importantes do uso do Power BI:
+
+Exploração inteligente com IA (Copilot).
+
+Importação e tratamento de dados de fontes externas (Web e APIs).
+
+O professor demonstrou como unir praticidade (IA) com técnicas de integração (web scraping e APIs), preparando os alunos para criar relatórios mais completos, conectados e eficientes.
