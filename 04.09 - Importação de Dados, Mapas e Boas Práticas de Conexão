@@ -1,0 +1,103 @@
+1. Introdução
+
+O professor Rodrigo Ramos Dornel iniciou a aula retomando a etapa de tratamento e limpeza de dados, enfatizando que esse processo é fundamental para garantir a qualidade das análises.
+O objetivo do encontro foi:
+
+Concluir o tópico de obtenção de dados no Power BI.
+
+Explorar novas opções de visualização geográfica.
+
+Introduzir boas práticas de conexão e desempenho.
+
+2. Revisão: Fonte de Dados (Web)
+
+O professor retomou o exemplo anterior da tabela de população do Brasil por estado extraída da Wikipedia.
+Essa base foi usada para dar continuidade às demonstrações, mostrando como o mesmo conjunto pode ser transformado e visualizado de diferentes formas.
+
+3. Visualização com Mapas
+
+Foi apresentada a funcionalidade de mapa de formas no Power BI.
+
+Passo a passo demonstrado:
+
+Inserir um mapa de formas no relatório.
+
+Associar a coluna Unidade Federativa ao campo de localização.
+
+Configurar o tipo de mapa para Brasil (já que o padrão inicial é EUA).
+
+Relacionar a coluna População à saturação de cor, gerando contraste visual.
+
+Observações:
+
+O mapa de formas ajuda a visualizar diferenças regionais (ex.: estados mais e menos populosos).
+
+É possível personalizar cores, bordas e gradientes.
+
+Além dele, o professor citou o mapa de globo e o mapa do Azure, que também permitem análises geográficas.
+
+💡 Conceito extra: O mapa de formas é ideal para análises comparativas regionais, enquanto o mapa de globo e o Azure Maps podem trazer interatividade e contexto global.
+
+4. Outras Fontes de Dados
+
+O professor listou exemplos de diferentes conexões que o Power BI suporta:
+
+OneDrive: integração com arquivos armazenados na nuvem.
+
+DirectQuery: conexão direta com o banco sem importar dados.
+
+SQL Server: importação de dados estruturados, inclusive no formato JSON (expansível dentro do Power Query).
+
+SharePoint: leitura de documentos e listas organizacionais.
+
+Analysis Services (OLAP Cubes): conexão com cubos multidimensionais ou tabulares.
+
+Snowflake e outras soluções de BI: possibilidade de integração via conectores nativos.
+
+💡 Conceito extra: A escolha do modo de conexão (Import x DirectQuery x Conexão Dinâmica) impacta diretamente na atualização em tempo real e no desempenho do relatório.
+
+5. Boas Práticas de Desempenho
+
+Durante um exercício de “verifique seus conhecimentos”, o professor destacou:
+
+Remover colunas e linhas desnecessárias → reduz volume de dados, melhora performance.
+
+Evitar colunas calculadas pesadas dentro do Power BI quando elas podem ser tratadas antes (no banco ou no Power Query).
+
+Conexão dinâmica (Live Connection) em Analysis Services → garante atualização imediata dos relatórios quando os dados no cubo mudam.
+
+6. Linguagens de Apoio
+
+O professor revisou brevemente algumas linguagens ligadas ao Power BI:
+
+SQL → usada para extrair dados de bancos relacionais.
+
+DAX (Data Analysis Expressions) → usada para cálculos, medidas e expressões dentro do Power BI.
+
+MDX (Multidimensional Expressions) → linguagem usada em cubos multidimensionais no Analysis Services.
+
+💡 Exemplo prático: enquanto o SQL serve para buscar os dados na origem, o DAX é aplicado dentro do Power BI para criar KPIs, métricas e indicadores personalizados.
+
+7. Conclusão da Aula
+
+O professor encerrou destacando que mais um módulo foi concluído.
+
+Na próxima semana, serão trabalhados:
+
+Parâmetros no Power Query (para tornar consultas dinâmicas).
+
+Diagnóstico de consultas (análise de performance e erros).
+
+Exercícios adicionais de integração e transformação.
+
+8. Síntese
+
+Essa aula consolidou três grandes pontos:
+
+Visualização geográfica com mapas de formas, permitindo análises comparativas entre regiões do Brasil.
+
+Integração com diversas fontes de dados, do simples (arquivos e web) ao avançado (SQL, JSON, SharePoint, Analysis Services).
+
+Boas práticas de conexão e desempenho, com foco em otimizar relatórios e manter atualizações confiáveis.
+
+👉 Em resumo, foi uma aula de prática aplicada, mostrando como transformar dados crus em visualizações geográficas significativas e como pensar na eficiência do modelo de dados no Power BI.
